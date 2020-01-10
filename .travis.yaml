@@ -7,4 +7,4 @@ before_install:
 
 
 script:
-   - docker run -e CI=true karkyra/docker-react npm run test -- --watchAll=false
+   - docker run -e CI=true karkyra/docker-react npm run test
