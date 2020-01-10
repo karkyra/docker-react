@@ -9,4 +9,4 @@ before_install:
 
 
 script:
-   - docker run -e CI=true karkyra/docker-react npm run test
+   - docker run -e CI=true karkyra/docker-react npm run test -- --coverage
